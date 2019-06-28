@@ -92,8 +92,6 @@ body{
 .myProjects .projects img{
      height: 150px;
      width: 150px;
-     margin-top: 50px;
-     transition:
 }
 .myProjects .projects:hover img{
   transform: scale(1.2, 1.2);
@@ -133,4 +131,29 @@ body{
 }
 .copyrightSection p{
   margin: 0;
+}
+#navigation{
+  background-color: #b71540;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
+#navigation li{
+  padding: 0 10px;
+}
+#navigation li a{
+  color: #fff;
+}
+.navbar-brand,
+.navbar-brand:hover{
+  color: #fff;
+}
+.navbar-toggler-icon{
+  background: url(../images/icons/menu.png);
+  background-size: 100%;
+  color: #fff;
+}
+.fixedNav #navigation{
+  position: fixed;
+  top: 0;
 }

@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <title>My Portfolio</title>
-      <!-- <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet"  type="text/css" href="css/superslides.css">
       <link rel="stylesheet"  type="text/css" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,6 +12,9 @@
 
   </head>
   <body>
+    <div class="loader">
+      <div class="inner"></div>
+    </div>
     <div id="slides">
         <div class="overlay"></div>
       <div class="slides-container">
@@ -30,21 +33,44 @@
           <a href="#" class="prev"></a>
         </nav>
     </div>
+    <nav id="navigation" class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#">Menu</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
       <div id="about" class="section">
         <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <img class="aboutimg" src="images/me.jpg" alt="">
+            <img class="aboutimg" src="images/sintu.jpg" alt="">
           </div>
           <div class="col-md-7">
             <h4>My name is Sintayehu Mekonnen</h4>
-            <p>I'm very interested in and passionate about coding. I never tired when I start coding.
-               I learn and update my skills every day.  I developed a website and some other projects using HTML, CSS, JavaScript,
-               and the JavaScript library JQuery.</p>
-            <p> I graduated from Georgia Piedmont Technical College in Computer Support Specialist.
-              I have also the Certificate of Web Development. I believe I can do more if anyone offers me to show my skills.
-              I'm not frustrated to face any challenges and come out with the solution. I can debug and troubleshoot.
-              And also familiar with the compatibility of different browsers. My skills, interest, and codes are here.</p>
+                <p>I’m very interested in and passionate about coding. I am never tired of it. 
+                I’m eager to learn new skills from any environment to update my skills. 
+                I developed a website and other projects applying HTML, CSS, JavaScript, and the JavaScript library like jQuery.
+                 I’m also familiar with general IT support issues and understand how to troubleshoot.</p>
+        
+                 <p>I have the Certificate of Web Development. I graduated from Georgia Piedmont Technical College in Computer Support Specialist. 
+                 I am highly motivated and a quick learner, and I am a positive contributor to any team or organization.</p>
           </div>
         </div>
       </div>
@@ -64,7 +90,6 @@
                 </span>
                 <h4>HTML</h4>
                 <p>Used in most my web based projects</p>
-
 
           </div>
             <div class="skill">
@@ -98,26 +123,26 @@
     </div>
   </div>
 </div>
-<div class="myProjects section text-center">
+<div id="projects" class="myProjects section text-center">
   <div class="container">
     <h2>My Projects</h2>
-    <p><i>Please click the figcaptions to see the project details!!</i></p>
+    <p><i>Please click each to see the project details!!</i></p>
     <div class="row">
   <div class="col-md-3 projects">
-     <img src="images/icons/web.png">
-      <a href="http://sintu.ga/" target="_blank"><figcaption>Website</figcaption></a>
+     <a href="http://sintu.ga/" target="_blank"><img src="images/icons/web.png"></a>
+      <figcaption>Website</figcaption>
   </div>
   <div class="col-md-3 projects">
-     <img src="images/icons/photoGallery.png">
-      <a href="http://sintu.ga/PhotoGallery/index.html" target="_blank"><figcaption>Photo-Gallery</figcaption></a>
+       <a href="http://sintu.ga/PhotoGallery/index.html" target="_blank"><img src="images/icons/photoGallery.png"></a>
+    <figcaption>Photo-Gallery</figcaption>
   </div>
   <div class="col-md-3 projects">
-     <img src="images/icons/checklist.png">
-      <a href="http://sintu.ga/ToDoList/index.html" target="_blank"><figcaption>ToDo-List</figcaption></a>
+       <a href="http://sintu.ga/ToDoList/index.html" target="_blank"><img src="images/icons/checklist.png"></a>
+    <figcaption>ToDo-List</figcaption>
   </div>
   <div class="col-md-3 projects">
-      <img src="images/icons/data-sheet.png">
-      <a href="http://sintu.ga/footBallTable/index.html" target="_blank"><figcaption>Football-Table</figcaption></a>
+      <a href="http://sintu.ga/footBallTable/index.html" target="_blank"><img src="images/icons/data-sheet.png"></a>
+      <figcaption>Football-Table</figcaption>
   </div>
 </div>
 </div>
@@ -126,18 +151,18 @@
     <div class="col-md-12 text-center">
       <p class="subHeading"><i>Comment what you see?</i></p>
       <h2>I'd love to hear from you!</h2>
-      <a href="mailTo:sintemite@gmail.com" class="contactButton">GEt IN TOUCH!</a>
+      <a href="mailTo:sintemite@gmail.com" class="contactButton">GET IN TOUCH!</a>
     </div>
   </div>
   <div  class="copyrightSection section">
     <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <p>&copy; Copyright Sintayehu Mekonnen 2019</p>
+        <p>&copy; Copyright Sintu 2019</p>
       </div>
       <div class="col-md-6 links">
-        <a href="https://github.com/24sint/sintu.ga" target="_blank">  <img src="images/icons/github.png"></a>
-        <a href="https://www.linkedin.com/in/sintayehu-mekonnen-35b88716a/" target="_blank">  <img src="images/icons/linkedin.png"></a>
+        <a href="https://github.com/24sint" target="_blank">  <img src="images/icons/github.png"></a>
+        <a href="https://www.linkedin.com/in/sintu-m/" target="_blank">  <img src="images/icons/linkedin.png"></a>
           <a href="https://www.facebook.com/" target="_blank">  <img src="images/icons/facebook.png"></a>
           <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">  <img src="images/icons/instagram.png"></a>
     </div>
