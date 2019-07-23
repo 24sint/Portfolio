@@ -1,151 +1,188 @@
-body{
+body {
   font-size: 14px;
   letter-spacing: 1px;
 }
-.overlay{
+
+.overlay {
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: 3;
 }
-.slides-navigation{
+
+.slides-navigation {
   z-index: 6;
 }
+
 .slides-navigation .prev,
-.slides-navigation .next{
-    width: 47px;
-    height: 47px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.slides-navigation .next {
+  width: 47px;
+  height: 47px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.slides-navigation a.prev{
+
+.slides-navigation a.prev {
   left: 20px;
   background-image: url(../images/icons/prev.png);
 }
-.slides-navigation a.next{
+
+.slides-navigation a.next {
   right: 20px;
   background-image: url(../images/icons/next.png);
 }
-.titleMessage{
+
+.titleMessage {
   position: absolute;
   width: 100%;
   height: 250px;
   top: 50%;
   z-index: 5;
   text-align: center;
-
 }
-.titleMessage .heading p{
+
+.titleMessage .heading p {
   color: #fff;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   font-weight: 100;
   letter-spacing: 7px;
 }
-.titleMessage .heading .main{
+
+.titleMessage .heading .main {
   font-size: 40px;
 }
-.titleMessage .heading .sub{
+
+.titleMessage .heading .sub {
   font-size: 20px;
 }
-.section{
+
+.section {
   padding: 100px 0px;
 }
 
-.aboutimg{
+.aboutimg {
   max-width: 100%;
 }
 
 .skillsSection,
-.contactSection{
+.contactSection {
   background-color: #b71540;
   color: #fff;
+  display: flex;
 }
-.chart canvas{
+/* .container{
+  display: flex;
+}
+.skill{
+  display: flex;
+} */
+.chart canvas {
   position: absolute;
   left: 0px;
   top: 0;
 }
-.chart{
+
+.chart {
   color: #000;
   line-height: 132px;
   display: inline-block;
   font-size: 35px;
   text-align: center;
 }
-.chart .percent:after{
+
+.chart .percent:after {
   content: '%';
 }
-.myProjects{
+
+.myProjects {
   padding-bottom: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  xs
 }
-.myProjects p{
+
+.myProjects p {
   font-size: 17px;
 }
-.myProjects .projects img{
-     height: 150px;
-     width: 150px;
+
+.myProjects .projects img {
+  height: 150px;
+  width: 150px;
 }
-.myProjects .projects:hover img{
+
+.myProjects .projects:hover img {
   transform: scale(1.2, 1.2);
 }
-.projects figcaption{
+
+.projects figcaption {
   font-size: 18px;
   color: #182C61;
 }
-.projects figcaption:hover{
+
+.projects figcaption:hover {
   color: #FC427B;
 }
-.contactSection h2{
+
+.contactSection h2 {
   text-transform: capitalize;
 }
-.contactSection p{
+
+.contactSection p {
   font-size: 17px;
 }
-.contactButton{
+
+.contactButton {
   color: #fff;
   padding: 15px 20px;
   display: inline-block;
   margin-top: 20px;
   border: 1px solid #fff;
   border-radius: 2px;
-
 }
-.contactButton:hover{
+
+.contactButton:hover {
   text-decoration: none;
   color: #e74c3c;
   background-color: #fff;
 }
-.copyrightSection{
+
+.copyrightSection {
   background-color: #000;
   color: #fff;
   padding: 30px 5px;
-
 }
-.copyrightSection p{
+
+.copyrightSection p {
   margin: 0;
 }
-#navigation{
+
+#navigation {
   background-color: #b71540;
   padding: 20px 10px;
   z-index: 100;
   width: 100%;
 }
-#navigation li{
+
+#navigation li {
   padding: 0 10px;
 }
-#navigation li a{
+
+#navigation li a {
   color: #fff;
 }
+
 .navbar-brand,
-.navbar-brand:hover{
+.navbar-brand:hover {
   color: #fff;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
   background: url(../images/icons/menu.png);
   background-size: 100%;
   color: #fff;
 }
-.fixedNav #navigation{
+
+.fixedNav #navigation {
   position: fixed;
   top: 0;
 }
