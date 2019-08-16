@@ -5,37 +5,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet"  type="text/css" href="css/superslides.css">
-      <link rel="stylesheet"  type="text/css" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet"  type="text/css" href="css/style.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   </head>
   <body>
-    <div class="loader">
-      <div class="inner"></div>
-    </div>
-    <div id="slides">
-        <div class="overlay"></div>
-      <div class="slides-container">
-          <img src="images/slide1.jpg" alt="">
-          <img src="images/slide2.jpg" alt="">
-          <img src="images/slide3.jpg" alt="">
-      </div>
-      <div class="titleMessage">
-        <div class="heading">
-          <p class="main">SINTAYEHU MEKONNEN</p>
-          <p class="sub typed"></p>
-        </div>
-      </div>
-        <nav class="slides-navigation">
-          <a href="#" class="next"></a>
-          <a href="#" class="prev"></a>
-        </nav>
-    </div>
-    <nav id="navigation" class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">Menu</a>
+    <div class="wrapper">
 
+  <nav id="navigation" class="navbar navbar-expand-lg">
+
+  <a class="navbar-brand" href="#">Menu</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -56,14 +36,33 @@
     </ul>
   </div>
 </nav>
-      <div id="about" class="section">
-        <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <img class="aboutimg" src="images/sintu.jpg" alt="">
-          </div>
-          <div class="col-md-7">
-            <h4>My name is Sintayehu Mekonnen</h4>
+    <div id="slides">
+      <div class="slides-container">
+          <img src="images/slide1.jpg" alt="">
+          <img src="images/slide2.jpg" alt="">
+          <img src="images/slide3.jpg" alt="">
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">SINTAYEHU MEKONNEN</p>
+          <p class="typed"></p>
+        </div>
+      </div>
+        <nav class="slides-navigation">
+          <a href="#" class="next"></a>
+          <a href="#" class="prev"></a>
+        </nav>
+    </div>
+      <hr>
+  <div id="about" class="about-container">
+        <h2>About Me</h2>
+     <div class="about">
+      <div class="img">
+          <img class="aboutimg" src="images/sintu.jpg" alt="">
+      </div>
+     <div class="intro">
+          <h4>My name is Sintayehu Mekonnen</h4>
                 <p>I’m very interested in and passionate about coding. I am never tired of it.
                 I’m eager to learn new skills from any environment to update my skills.
                 I developed a website and other projects applying HTML, CSS, JavaScript, and the JavaScript library like jQuery.
@@ -71,110 +70,77 @@
 
                  <p>I have the Certificate of Web Development. I graduated from Georgia Piedmont Technical College in Computer Support Specialist.
                  I am highly motivated and a quick learner, and I am a positive contributor to any team or organization.</p>
-          </div>
-        </div>
-      </div>
+     </div>
+     </div>
     </div>
-    <div id="skills" class="skillsSection section">
-      <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2>THECHNICAL SKILLS</h2>
-          <p>Skill Level</p>
+
+     <div id="skills" class="skills">
+            <h2>SKILLS</h2>
+
+        <div class="skillSection-1">
+
+          <h3>THECHNICAL SKILLS</h3>
+                <input type="text" name="" value="HTML">
+                <input type="text" name="" value="CSS">
+                <input type="text" name="" value="JavaScript">
+                <input type="text" name="" value="jQuery">
+                <input type="text" name="" value="Node.js">
+       </div>
+       <div class="skillSection-2">
+          <h3>OTHER SKILLS</h3>
+                <input type="text" name="" value="Git">
+                <input type="text" name="" value="Slack">
         </div>
-          <div class="owl-carousel owl-theme">
-              <div class="skill">
-                <span class="chart" data-percent="74">
-                      <span class="percent">74</span>
-                      <canvas width="132" height="132"></canvas>
-                </span>
-                <h4>HTML</h4>
-                <p>Used in most my web based projects</p>
-
-          </div>
-            <div class="skill">
-              <span class="chart" data-percent="66">
-                    <span class="percent">66</span>
-                    <canvas width="132" height="132"></canvas>
-              </span>
-              <h4>CSS</h4>
-              <p>Used in my web based projects</p>
-
-          </div>
-          <div class="skill">
-            <span class="chart" data-percent="44">
-                  <span class="percent">44</span>
-                  <canvas width="132" height="132"></canvas>
-            </span>
-            <h4>JavaScript</h4>
-            <p>Used in some of web based projects</p>
-
-        </div>
-        <div class="skill">
-          <span class="chart" data-percent="30">
-                <span class="percent">30</span>
-                <canvas width="132" height="132"></canvas>
-          </span>
-          <h4>jQuery</h4>
-          <p>Used in some of my web based projects</p>
-
       </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="projects" class="myProjects section text-center">
-  <div class="container">
-    <h2>My Projects</h2>
-    <p>Please click each image to see the project details!!</p>
-    <div class="row">
-  <div class="col-md-3 projects">
+
+<div id="projects" class="projects-container">
+  <div class="myProjects">
+     <h2>PROJECTS</h2>
+     <p>Please click each image or figcaption to see the project details!!</p>
+   </div>
+<div class="projects">
+  <div class="project-1">
      <a href="http://sintu.me/MyFirstWebsite/index.html" target="_blank"><img src="images/icons/web.png"></a>
       <figcaption>Website</figcaption>
   </div>
-  <div class="col-md-3 projects">
+  <div class="project-2">
        <a href="http://sintu.me/PhotoGallery/index.html" target="_blank"><img src="images/icons/photoGallery.png"></a>
     <figcaption>Photo-Gallery</figcaption>
   </div>
-  <div class="col-md-3 projects">
+  <div class="project-3">
        <a href="http://sintu.me/ToDoList/index.html" target="_blank"><img src="images/icons/checklist.png"></a>
     <figcaption>ToDo-List</figcaption>
   </div>
-  <div class="col-md-3 projects">
+  <div class="project-4">
       <a href="http://sintu.me/footBallTable/index.html" target="_blank"><img src="images/icons/data-sheet.png"></a>
       <figcaption>Football-Table</figcaption>
   </div>
 </div>
 </div>
-</div>
-  <div id="contact" class="contactSection section">
-    <div class="col-md-12 text-center">
-      <p class="subHeading"><i>Comment what you see?</i></p>
-      <h2>I'd love to hear from you!</h2>
+  <div id="contact" class="contact">
+    <h2>CONTACT</h2>
+      <p ><i>Comment what you see?</i></p>
+      <h3>I'd love to hear from you!</h3>
       <a href="mailTo:sintemite@gmail.com" class="contactButton">GET IN TOUCH!</a>
-    </div>
   </div>
-  <div  class="copyrightSection section">
-    <div class="container">
-    <div class="row">
-      <div class="col-md-6">
+
+  <footer class="footer">
+
+  <div  class="copyrightSection">
         <p>&copy; Copyright Sintu 2019</p>
-      </div>
-      <div class="col-md-6 links">
+  </div>
+
+  <div class="social-medias">
         <a href="https://github.com/24sint" target="_blank">  <img src="images/icons/github.png"></a>
         <a href="https://www.linkedin.com/in/sintu-m/" target="_blank">  <img src="images/icons/linkedin.png"></a>
-          <a href="https://www.facebook.com/" target="_blank">  <img src="images/icons/facebook.png"></a>
-          <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">  <img src="images/icons/instagram.png"></a>
-    </div>
+        <a href="https://www.facebook.com/" target="_blank">  <img src="images/icons/facebook.png"></a>
+        <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">  <img src="images/icons/instagram.png"></a>
   </div>
-</div>
+  </div>
+</footer>
 </div>
 <script src="js/jquery.superslides.min.js"></script>
-<script src="js/jquery.easypiechart.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/typed.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <script src="js/typed.min.js"></script>
 <script src="js/app.js"></script>
-  </body>
+</body>
 </html>
