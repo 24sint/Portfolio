@@ -84,34 +84,17 @@ hr{
   font-weight: bold;
   text-align: center;
 }
-
-.skills{
+ 
+.skill{
   background-color: #b71540;
-  font-size: 1.5em;
   font-family: sans-serif;
   text-align: center;
   padding: 70px;
 }
-.skills h2{
-  color: #000;
-  font: bold 30px Sans-Serif;
-  margin-bottom: 30px;
-  text-shadow: 0 3px 0 #c9c9c9;
+.skill h5{
+  color: #b71540;
 }
-.skills h3{
-  color: #fff;
-  font: bold 20px Sans-Serif;
-}
-.skillSection-2{
-  margin-top: 100px;
-}
-.skillSection-1 input,
-.skillSection-2 input{
-  text-align: center;
-  background: #0e8dbc;
-  font: bold 30px Sans-Serif;
-  text-shadow: 0 3px 0 #c9c9c9;
-}
+
 .projects-container{
   text-align: center;
   margin-top: 80px;
@@ -134,7 +117,7 @@ hr{
 }
 
 .projects img{
-  height: 150px;
+  height: 120px;
 }
 .projects img:hover  {
   transform: scale(1.2, 1.2);
@@ -170,7 +153,10 @@ hr{
   color: #e74c3c;
   background-color: #fff;
 }
-
+.social-medias img{
+  width: 50px;
+  height: 50px;
+}
 .footer{
   display: grid;
   background-color: #000;
@@ -181,8 +167,6 @@ hr{
 .copyrightSection {
   color: #fff;
   font: bold 15px Sans-Serif;
-}
-.social-medias{
 }
  @media (max-width: 1024px){
     .about{

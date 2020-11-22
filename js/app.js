@@ -3,8 +3,8 @@ $(document).ready(function(){
     animation: 'fade',
     play: 5000,
   });
-  var typed = new Typed(".typed",{
-    strings: ["Web Developer.", "Computer Support Specialist."],
+const typed = new Typed(".typed",{
+    strings: ["Fron- End Web Developer", "Back-End Web developer", "Full-Stack Web Developer"],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
