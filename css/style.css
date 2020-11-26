@@ -91,8 +91,18 @@ hr{
   text-align: center;
   padding: 70px;
 }
+.card{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .skill h5{
   color: #b71540;
+  font-weight: bold;
+}
+.skill p{
+  background-color: #00080a;
+  font-weight: bold; 
+  color: wheat;
 }
 
 .projects-container{
