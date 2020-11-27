@@ -84,17 +84,14 @@ hr{
   font-weight: bold;
   text-align: center;
 }
- 
 .skill{
   background-color: #b71540;
   font-family: sans-serif;
   text-align: center;
-  padding: 70px;
+  padding-bottom: 70px;
+  padding-top: 50px;
 }
-.card{
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
+
 .skill h5{
   color: #b71540;
   font-weight: bold;
@@ -200,10 +197,6 @@ hr{
       display: block;
     }
     .intro{
-      font-size: 1em;
-    }
-    .skillSection-1 input,
-    .skillSection-2 input{
       font-size: 1em;
     }
     .projects{

@@ -11,3 +11,4 @@ const typed = new Typed(".typed",{
     showCursor: false
   });
 });
+
