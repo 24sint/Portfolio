@@ -4,7 +4,7 @@ $(document).ready(function(){
     play: 5000,
   });
 const typed = new Typed(".typed",{
-    strings: ["Fron- End Web Developer", "Back-End Web developer", "Full-Stack Web Developer"],
+    strings: ["Full-Stack Developer"],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
